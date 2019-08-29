@@ -7,23 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB36D5E02316C36C004894DD /* BackgroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB36D5DF2316C36C004894DD /* BackgroundViewController.swift */; };
+		BB36D5E22316C3AE004894DD /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB36D5E12316C3AE004894DD /* BackgroundView.swift */; };
+		BB5C09A12313DC860025C260 /* EdgedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5C09A02313DC860025C260 /* EdgedListViewController.swift */; };
+		BB5C09A323140F010025C260 /* ComplexGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5C09A223140F010025C260 /* ComplexGroupViewController.swift */; };
+		BB66AB4B231273CF008A8055 /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB66AB49231273CF008A8055 /* TextCell.swift */; };
+		BB66AB4C231273CF008A8055 /* TextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB66AB4A231273CF008A8055 /* TextCell.xib */; };
+		BB66AB4E23127411008A8055 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB66AB4D23127411008A8055 /* MenuItem.swift */; };
+		BB66AB5023127481008A8055 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB66AB4F23127481008A8055 /* ListViewController.swift */; };
 		BB6BFBC0231269BC00F4783D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6BFBBF231269BC00F4783D /* AppDelegate.swift */; };
 		BB6BFBC2231269BC00F4783D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6BFBC1231269BC00F4783D /* SceneDelegate.swift */; };
-		BB6BFBC4231269BC00F4783D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6BFBC3231269BC00F4783D /* ViewController.swift */; };
+		BB6BFBC4231269BC00F4783D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6BFBC3231269BC00F4783D /* MainViewController.swift */; };
 		BB6BFBC7231269BC00F4783D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB6BFBC5231269BC00F4783D /* Main.storyboard */; };
 		BB6BFBC9231269BE00F4783D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB6BFBC8231269BE00F4783D /* Assets.xcassets */; };
 		BB6BFBCC231269BE00F4783D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB6BFBCA231269BE00F4783D /* LaunchScreen.storyboard */; };
+		BB6BFBD423126A0900F4783D /* Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6BFBD323126A0900F4783D /* Preview.swift */; };
+		BB6BFBD823126E9900F4783D /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6BFBD623126E9900F4783D /* ListCell.swift */; };
+		BB6BFBD923126E9900F4783D /* ListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB6BFBD723126E9900F4783D /* ListCell.xib */; };
+		BB781E6C231550FD003F48F3 /* CheckmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB781E6A231550FD003F48F3 /* CheckmarkView.swift */; };
+		BB781E6D231550FD003F48F3 /* CheckmarkView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB781E6B231550FD003F48F3 /* CheckmarkView.xib */; };
+		BB781E6F231563FA003F48F3 /* CheckmarkGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB781E6E231563FA003F48F3 /* CheckmarkGridViewController.swift */; };
+		BBBBCFD4231295D800D32F3D /* EstimatedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBBCFD3231295D800D32F3D /* EstimatedListViewController.swift */; };
+		BBBBCFD623129CCC00D32F3D /* EstimatedGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBBCFD523129CCB00D32F3D /* EstimatedGridViewController.swift */; };
+		BBEE734623169F40000F27C5 /* HeaderFooterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEE734523169F40000F27C5 /* HeaderFooterViewController.swift */; };
+		BBEE73492316A11E000F27C5 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEE73472316A11E000F27C5 /* TitleView.swift */; };
+		BBEE734A2316A11E000F27C5 /* TitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBEE73482316A11E000F27C5 /* TitleView.xib */; };
+		BBFAC2DA2314FB5C007DF722 /* OrthoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFAC2D92314FB5C007DF722 /* OrthoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB36D5DF2316C36C004894DD /* BackgroundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundViewController.swift; sourceTree = "<group>"; };
+		BB36D5E12316C3AE004894DD /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		BB5C09A02313DC860025C260 /* EdgedListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgedListViewController.swift; sourceTree = "<group>"; };
+		BB5C09A223140F010025C260 /* ComplexGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexGroupViewController.swift; sourceTree = "<group>"; };
+		BB66AB49231273CF008A8055 /* TextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
+		BB66AB4A231273CF008A8055 /* TextCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextCell.xib; sourceTree = "<group>"; };
+		BB66AB4D23127411008A8055 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		BB66AB4F23127481008A8055 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		BB6BFBBC231269BC00F4783D /* UICollectionViewCompositionalLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICollectionViewCompositionalLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB6BFBBF231269BC00F4783D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB6BFBC1231269BC00F4783D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BB6BFBC3231269BC00F4783D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB6BFBC3231269BC00F4783D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		BB6BFBC6231269BC00F4783D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB6BFBC8231269BE00F4783D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB6BFBCB231269BE00F4783D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB6BFBCD231269BE00F4783D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB6BFBD323126A0900F4783D /* Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preview.swift; sourceTree = "<group>"; };
+		BB6BFBD623126E9900F4783D /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		BB6BFBD723126E9900F4783D /* ListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListCell.xib; sourceTree = "<group>"; };
+		BB781E6A231550FD003F48F3 /* CheckmarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckmarkView.swift; sourceTree = "<group>"; };
+		BB781E6B231550FD003F48F3 /* CheckmarkView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckmarkView.xib; sourceTree = "<group>"; };
+		BB781E6E231563FA003F48F3 /* CheckmarkGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckmarkGridViewController.swift; sourceTree = "<group>"; };
+		BBBBCFD3231295D800D32F3D /* EstimatedListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstimatedListViewController.swift; sourceTree = "<group>"; };
+		BBBBCFD523129CCB00D32F3D /* EstimatedGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstimatedGridViewController.swift; sourceTree = "<group>"; };
+		BBEE734523169F40000F27C5 /* HeaderFooterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderFooterViewController.swift; sourceTree = "<group>"; };
+		BBEE73472316A11E000F27C5 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		BBEE73482316A11E000F27C5 /* TitleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleView.xib; sourceTree = "<group>"; };
+		BBFAC2D92314FB5C007DF722 /* OrthoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrthoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +77,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB66AB48231273A1008A8055 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BB66AB4F23127481008A8055 /* ListViewController.swift */,
+				BB5C09A02313DC860025C260 /* EdgedListViewController.swift */,
+				BBBBCFD523129CCB00D32F3D /* EstimatedGridViewController.swift */,
+				BBBBCFD3231295D800D32F3D /* EstimatedListViewController.swift */,
+				BB5C09A223140F010025C260 /* ComplexGroupViewController.swift */,
+				BBFAC2D92314FB5C007DF722 /* OrthoViewController.swift */,
+				BB781E6E231563FA003F48F3 /* CheckmarkGridViewController.swift */,
+				BBEE734523169F40000F27C5 /* HeaderFooterViewController.swift */,
+				BB36D5DF2316C36C004894DD /* BackgroundViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		BB6BFBB3231269BC00F4783D = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +112,43 @@
 		BB6BFBBE231269BC00F4783D /* UICollectionViewCompositionalLayout */ = {
 			isa = PBXGroup;
 			children = (
+				BB66AB48231273A1008A8055 /* ViewControllers */,
+				BB781E6923155096003F48F3 /* Views */,
+				BB6BFBD523126D6B00F4783D /* Cells */,
 				BB6BFBBF231269BC00F4783D /* AppDelegate.swift */,
 				BB6BFBC1231269BC00F4783D /* SceneDelegate.swift */,
-				BB6BFBC3231269BC00F4783D /* ViewController.swift */,
+				BB6BFBC3231269BC00F4783D /* MainViewController.swift */,
+				BB66AB4D23127411008A8055 /* MenuItem.swift */,
+				BB6BFBD323126A0900F4783D /* Preview.swift */,
 				BB6BFBC5231269BC00F4783D /* Main.storyboard */,
 				BB6BFBC8231269BE00F4783D /* Assets.xcassets */,
 				BB6BFBCA231269BE00F4783D /* LaunchScreen.storyboard */,
 				BB6BFBCD231269BE00F4783D /* Info.plist */,
 			);
 			path = UICollectionViewCompositionalLayout;
+			sourceTree = "<group>";
+		};
+		BB6BFBD523126D6B00F4783D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BB6BFBD623126E9900F4783D /* ListCell.swift */,
+				BB6BFBD723126E9900F4783D /* ListCell.xib */,
+				BB66AB49231273CF008A8055 /* TextCell.swift */,
+				BB66AB4A231273CF008A8055 /* TextCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		BB781E6923155096003F48F3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB781E6A231550FD003F48F3 /* CheckmarkView.swift */,
+				BB781E6B231550FD003F48F3 /* CheckmarkView.xib */,
+				BBEE73472316A11E000F27C5 /* TitleView.swift */,
+				BBEE73482316A11E000F27C5 /* TitleView.xib */,
+				BB36D5E12316C3AE004894DD /* BackgroundView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +209,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB6BFBCC231269BE00F4783D /* LaunchScreen.storyboard in Resources */,
+				BBEE734A2316A11E000F27C5 /* TitleView.xib in Resources */,
+				BB6BFBD923126E9900F4783D /* ListCell.xib in Resources */,
+				BB781E6D231550FD003F48F3 /* CheckmarkView.xib in Resources */,
+				BB66AB4C231273CF008A8055 /* TextCell.xib in Resources */,
 				BB6BFBC9231269BE00F4783D /* Assets.xcassets in Resources */,
 				BB6BFBC7231269BC00F4783D /* Main.storyboard in Resources */,
 			);
@@ -137,9 +225,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB6BFBC4231269BC00F4783D /* ViewController.swift in Sources */,
+				BB781E6C231550FD003F48F3 /* CheckmarkView.swift in Sources */,
+				BB66AB4E23127411008A8055 /* MenuItem.swift in Sources */,
+				BBFAC2DA2314FB5C007DF722 /* OrthoViewController.swift in Sources */,
+				BB6BFBC4231269BC00F4783D /* MainViewController.swift in Sources */,
+				BBEE734623169F40000F27C5 /* HeaderFooterViewController.swift in Sources */,
 				BB6BFBC0231269BC00F4783D /* AppDelegate.swift in Sources */,
+				BB36D5E02316C36C004894DD /* BackgroundViewController.swift in Sources */,
+				BB6BFBD423126A0900F4783D /* Preview.swift in Sources */,
+				BB6BFBD823126E9900F4783D /* ListCell.swift in Sources */,
+				BB5C09A12313DC860025C260 /* EdgedListViewController.swift in Sources */,
+				BBBBCFD4231295D800D32F3D /* EstimatedListViewController.swift in Sources */,
+				BB66AB4B231273CF008A8055 /* TextCell.swift in Sources */,
+				BBBBCFD623129CCC00D32F3D /* EstimatedGridViewController.swift in Sources */,
+				BBEE73492316A11E000F27C5 /* TitleView.swift in Sources */,
+				BB66AB5023127481008A8055 /* ListViewController.swift in Sources */,
+				BB5C09A323140F010025C260 /* ComplexGroupViewController.swift in Sources */,
 				BB6BFBC2231269BC00F4783D /* SceneDelegate.swift in Sources */,
+				BB36D5E22316C3AE004894DD /* BackgroundView.swift in Sources */,
+				BB781E6F231563FA003F48F3 /* CheckmarkGridViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
